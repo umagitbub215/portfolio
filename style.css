@@ -1,0 +1,142 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling for centering content */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Container styling for centering and padding */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+#pic{
+    height: 400px;
+    padding-left: 200px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About, Skills, Projects, Resume, Contact sections */
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Projects section */
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#skills{
+    background-color: #A0153E;
+    color: white;
+}
+
+#projects{
+    background-color: #00224D;
+    color: white;
+}
+
+#matter{
+    color: #dbd0d0;
+}
+
+#p1i_mg{
+    height: 360px;
+}
+#certifications{
+    background-color: #ffe4b5;
+    color: #333;
+}
+
+#certificationsh2{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
